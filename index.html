@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title></title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#ffcc00}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
+    body{background:linear-gradient(135deg,#071026 0%, #0b1630 100%);display:flex;align-items:center;justify-content:center;color:#e6eef8}
+    .card{width:92vw;max-width:760px;background:rgba(255,255,255,0.02);padding:28px;border-radius:16px;box-shadow:0 8px 30px rgba(2,6,23,0.6);text-align:center}
+    h1{margin:0 0 10px;font-size:20px}
+    p{margin:0 0 18px;color:#c9d7f0}
+    .visual{height:120px;margin-top:18px;display:flex;align-items:center;justify-content:center;gap:8px}
+    .bar{width:8px;border-radius:4px;background:linear-gradient(180deg,#4dd0e1,#00647a);height:24px;transition:height 0.12s linear}
+    small{display:block;margin-top:14px;color:#98aecd}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Привет любимый мой</h1>
+    <p>Нажми кнопочку даун</p>
+
+    <div style="margin-top:18px;text-align:center">
+      <p style="margin:0 0 8px;color:#c9d7f0">Песня для крутых мущчин</p>
+      <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/financemonster/brudilnik&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+    </div>
+
+    <div class="visual" id="visual" aria-hidden="true">
+      <div class="bar" style="height:24px"></div>
+      <div class="bar" style="height:36px"></div>
+      <div class="bar" style="height:48px"></div>
+      <div class="bar" style="height:36px"></div>
+      <div class="bar" style="height:24px"></div>
+    </div>
+
+  </div>
+</body>
+</html>
